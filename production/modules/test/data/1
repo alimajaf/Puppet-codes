@@ -1,0 +1,5 @@
+---
+  test::zabbix_version: '3.4'
+  test::server: '192.168.30.150'
+  test::serveractive: '192.168.30.150'
+

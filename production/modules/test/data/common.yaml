@@ -1,0 +1,9 @@
+---
+  $zabbix_version = lookup('test::zabbix_version', '3.4')
+  $server = lookup('test::server', '192.168.30.150')
+  $serveractive = lookup('test::serveractive', '192.168.30.150')
+
+#  test::zabbix_version: '3.4'
+#  test::server: '192.168.30.150'
+#  test::serveractive: '192.168.30.150'
+

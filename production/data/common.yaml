@@ -1,0 +1,5 @@
+---
+  zabbix::zabbix_agent::server: '10.24.100.250'
+  zabbix::zabbix_agent::serveractive: '10.24.100.250'
+  zabbix::zabbix_agent::version: '3.4'
+...

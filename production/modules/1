@@ -1,0 +1,43 @@
+{
+  "name": "zabbixagent",
+  "version": "0.1.0",
+  "author": "alimajaf",
+  "summary": "Module to install and configure zabbix-agent",
+  "license": "proprietary",
+  "source": "https://forge.puppet.com/puppet/zabbix",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+}
